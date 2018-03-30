@@ -57,12 +57,10 @@ ro.kernel.zio=38,108,105,16
 # Disable dirty region for Mali
 debug.hwui.render_dirty_regions=false
 
-ro.sf.lcd_density=240
+ro.sf.lcd_density=290
 
-# performance
 ro.mtk_perf_simple_start_win=1
 ro.mtk_perf_response_time=1
-persist.sys.timezone = Europe/Moscow
 
 #persist.sys.isUsbOtgEnabled=true
 
@@ -71,6 +69,11 @@ ro.mtk_perfservice_support=1
 persist.logd.logpersistd=logcatd
 
 ro.telephony.default_network=9
+
+# Treble by Manish_4586
+media.stagefright.legacyencoder=true
+media.stagefright.less-secure=true
+persist.media.treble_omx=false
 
 # ClearMotion
 persist.sys.display.clearMotion=0
